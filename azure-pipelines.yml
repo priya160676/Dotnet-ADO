@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
- name: OMS Transformation
+ vmImage: windows-latest
 
 variables:
   solution: '**/*.sln'
