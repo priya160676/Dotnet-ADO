@@ -7,7 +7,7 @@ trigger:
 - feature-dotnet-01
 
 pool:
- name: self-hosted
+ vmImage: windows-latest
 
 variables:
   solution: '**/*.sln'
